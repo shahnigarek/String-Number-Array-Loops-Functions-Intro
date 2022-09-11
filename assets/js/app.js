@@ -1,5 +1,4 @@
-TASK-1
-TASK-2
+// TASK-2
 var Age;
 alert("Welcome to the website :)");
 Age = Number(prompt("Please enter your age"));
@@ -9,26 +8,27 @@ function userAge()
 }
 userAge();
 
-TASK-3
+// TASK-3
 
 function darkMode() {
     var element = document.body;
     element.classList.toggle("dark-mode");
  }
- TASK-4
+//  TASK-4
 
- function GROUP() {
+ function Groups() 
+{
 
-    var value = document.getElementById("input").value
+    var value = document.getElementById("Input").value
     if (value.length === 4 || value.length === 5) {
         if (value.includes("1", 1)) {
-            body.style.backgroundColor = "lightblue"
+            document.body.style.backgroundColor = "lightblue"
         }
         else if (value.includes("2", 1)) {
-            body.style.backgroundColor = "red"
+           document.body.style.backgroundColor = "red"
         }
         else if (value.includes("3", 1)) {
-            body.style.backgroundColor = "darkblue"
+            document.body.style.backgroundColor = "black"
         }
     } 
 }
